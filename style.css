@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  width: 200px;
+  margin-top: -40px;
+}
+.hero {
+  width: 100%;
+  background-image: url(/Images/background0.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+}
+.hero h1 {
+  color: white;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+.info {
+  padding: 60px 100px;
+  color: White;
+  width: 30%;
+}
+.info p {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+.info h2 {
+  color: lightgrey;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.info a {
+  color: black;
+  background-color: rgb(199, 131, 82);
+  padding: 10px 30px;
+  text-decoration: none;
+}
+#about {
+  background-color: white;
+  height: 50vh;
+  padding: 60px 100px;
+}
+#about h1 {
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+.about-section {
+  display: flex;
+}
+.col {
+  width: 40%;
+  border-radius: 10px;
+  box-shadow: 2px 2px lightgrey;
+  padding: 30px 30px;
+  background-color: rgb(243, 242, 242);
+  margin: 20px 20px 0px 0px;
+}
+.col h2 {
+  margin-bottom: 20px;
+}
+.col p {
+  font-size: 20px;
+}
+.Practice-areas {
+  display: flex;
+  padding: 60px 100px;
+  height: 70vh;
+  background-color: rgb(115, 92, 75);
+  justify-content: space-between;
+}
+.left-side {
+  width: 30%;
+  color: white;
+}
+.left-side h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.left-side p {
+  font-size: 24px;
+  color: lightgrey;
+}
+.left-side h3 {
+  font-size: 30px;
+  margin: 20px 0px;
+}
+.left-side li {
+  list-style: none;
+  font-size: 24px;
+  color: lightgrey;
+}
+.right-side img {
+  width: 70%;
+  border-radius: 20px;
+  filter: blur(2px);
+}
+.testimonials {
+  background-color: white;
+  height: 50vh;
+  padding: 60px 100px;
+}
+.testimonials h1 {
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+.cards {
+  display: flex;
+}
+.testimonial-card {
+  width: 40%;
+  border-radius: 10px;
+  box-shadow: 2px 2px lightgrey;
+  padding: 30px 30px;
+  background-color: rgb(243, 242, 242);
+  margin: 20px 20px 0px 0px;
+}
+.author {
+  display: flex;
+}
+.author img {
+  width: 60px;
+  border-radius: 60px;
+}
+.author p {
+  font-size: 20px;
+  margin-left: 10px;
+}
+blockquote {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.author:last-child img {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+  background-color:rgb(115, 92, 75) ;
+  color: lightgray;
+}
+footer a{
+  color: inherit;
+  text-decoration: none;
+}
+.footer-sections:not(:last-child){
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+}
+.footer-sections a{
+  font-size: 20px;
+  padding: 10px 0px;
+}
+ion-icon{
+  margin-right: 10px;
+  font-size: 24px;
+}
+.footer-sections:last-child{
+  padding: 40px 20px;
+}
+footer h1{
+  margin-bottom: 10px;
+}
+.footer-sections:first-child .logo{
+  margin-bottom: -30px;
+}
+.footer-sections:first-child ion-icon{
+  margin-left: 20px;
+}
+/* background-color: rgb(235, 189, 157);
+    background-color: rgb(232, 224, 224);
+     background-color: rgb(199, 131, 82); */
