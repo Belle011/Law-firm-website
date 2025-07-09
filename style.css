@@ -280,7 +280,7 @@ footer h1 {
 }
 @media (max-width: 576px) {
   #hero {
-    background-image: url(/Images/background0-mobile.png);
+    background-image: url(./Images/background0-mobile.png);
     background-size: cover;
     background-repeat: no-repeat;
     flex-direction: column;
