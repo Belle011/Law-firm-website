@@ -203,6 +203,13 @@ footer h1 {
     background-color: rgb(243, 242, 242);
     margin: 20px 20px 0px 0px;
   }
+  .col h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .col p {
+    font-size: 16px;
+  }
   #about {
     background-color: white;
     height: 90vh;
@@ -275,6 +282,7 @@ footer h1 {
   #hero {
     background-image: url(/Images/background0-mobile.png);
     background-size: cover;
+    background-repeat: no-repeat;
     flex-direction: column;
   }
   .info {
@@ -309,16 +317,17 @@ footer h1 {
     padding: 10px 30px;
   }
   #about h1 {
+    font-size: 30px;
     margin-bottom: 15px;
   }
   #Practice-areas {
-    padding: 20px 50px;
+    padding: 10px 30px;
     height: 100vh;
     display: flex;
     flex-direction: column;
   }
   .left-side p {
-    font-size: 20px;
+    font-size: 16px;
   }
   .left-side {
     width: 100%;
@@ -328,15 +337,23 @@ footer h1 {
     width: 80%;
     height: 80%;
     border-radius: 20px;
-    filter: blur(2px);
-    margin-top: 25px;
+    filter: blur(1px);
+    margin-top: 20px;
   }
   .left-side h1 {
-    font-size: 40px;
+    font-size: 26px;
     margin-bottom: 20px;
   }
+  .left-side h3 {
+    font-size: 26px;
+  }
   .left-side li {
-    font-size: 20px;
+    font-size: 16px;
+  }
+  #testimonials {
+    background-color: white;
+    height: 100vh;
+    padding: 10px 20px;
   }
   .cards {
     display: flex;
@@ -346,28 +363,46 @@ footer h1 {
     width: 90%;
     border-radius: 10px;
     box-shadow: 2px 2px lightgrey;
-    padding: 10px 20px;
     background-color: rgb(243, 242, 242);
     margin: 20px 20px 0px 0px;
   }
-  .testimonials {
-    background-color: white;
-    height: 90vh;
-    padding: 20px 50px;
-  }
-  .testimonials h1 {
-    font-size: 36px;
+  #testimonials h1 {
+    font-size: 26px;
     margin-bottom: 10px;
+  }
+  #testimonials blockquote {
+    font-size: 16px;
+  }
+  .author {
+    display: flex;
+    margin-top: -10px;
+  }
+  .author img {
+    width: 60px;
+    border-radius: 60px;
+  }
+  .author p {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  .author:last-child img {
+    width: 40px;
+    height: 40px;
+    border-radius: 60px;
   }
   footer {
     display: flex;
     flex-direction: column;
-    padding: 20px 20px;
+    padding: 10px 20px;
   }
   .footer-sections:first-child .logo {
-    margin-left: 0px;
+    margin-left: -20px;
   }
   .footer-sections:first-child ion-icon {
     margin-left: 0px;
+  }
+  .email ion-icon{
+    margin-left: -10px;
+    
   }
 }
