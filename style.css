@@ -68,7 +68,6 @@
 #Practice-areas {
   display: flex;
   padding: 60px 100px;
-  height: 70vh;
   background-color: rgb(115, 92, 75);
   justify-content: space-between;
 }
@@ -95,9 +94,7 @@
 }
 
 .right-side img {
-  object-fit: contain;
   width: 70%;
-  /* height: 70vh; */
   border-radius: 20px;
   filter: blur(2px);
 }
