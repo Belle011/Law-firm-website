@@ -8,7 +8,8 @@
 }
 #hero {
   width: 100%;
-  background-image: url(/Images/background0.png);
+  /*  background-image: url(/Images/background0.png); */
+  background-image: url("/Images/background0.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 80vh;
@@ -175,7 +176,8 @@ footer h1 {
 }
 @media (max-width: 760px) {
   #hero {
-    background-image: url(/Images/background0-mobile.png);
+    /* background-image: url(/Images/background0-mobile.png); */
+    background-image: url("/Images/background0-mobile.png");
   }
   .info {
     padding: 20px 50px;
@@ -401,8 +403,7 @@ footer h1 {
   .footer-sections:first-child ion-icon {
     margin-left: 0px;
   }
-  .email ion-icon{
+  .email ion-icon {
     margin-left: -10px;
-    
   }
 }
