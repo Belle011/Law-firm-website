@@ -8,8 +8,7 @@
 }
 #hero {
   width: 100%;
-  /*  background-image: url(/Images/background0.png); */
-  background-image: url("/Images/background0.png");
+  background-image: url("./Images/background0.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 80vh;
